@@ -1,5 +1,5 @@
-import { NextRequest, NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
+import { NextRequest, NextResponse } from "next/server";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -23,11 +23,11 @@ export async function POST(req: NextRequest) {
       payment_method_types: ["card"],
       mode: "payment",
       shipping_address_collection: {
-        allowed_countries: ["US", "CA"],
+        allowed_countries: ["CA", "US"],
       },
       shipping_options: [
-        { shipping_rate: "shr_1MfufhDgraNiyvtnDGef2uwK" },
-        { shipping_rate: "shr_1OpHFHDgraNiyvtnOY4vDjuY" },
+        { shipping_rate: "shr_1OzSG2LsWbYHGI92WwvUA0Ok" },
+        { shipping_rate: "shr_1OzSCkLsWbYHGI92foZqYMUq" },
       ],
       line_items: cartItems.map((cartItem: any) => ({
         price_data: {

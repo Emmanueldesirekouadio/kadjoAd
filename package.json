@@ -33,7 +33,7 @@
     "react-hook-form": "^7.51.2",
     "react-hot-toast": "^2.4.1",
     "recharts": "^2.12.3",
-    "stripe": "^14.23.0",
+    "stripe": "^14.24.0",
     "table": "github:tanstack/react-table",
     "tailwind-merge": "^2.2.2",
     "tailwind-scrollbar-hide": "^1.1.7",

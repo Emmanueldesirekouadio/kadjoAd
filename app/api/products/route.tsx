@@ -1,9 +1,9 @@
 import { auth } from "@clerk/nextjs";
 import { NextRequest, NextResponse } from "next/server";
 
-import { connectToDB } from "@/lib/mongoDB";
-import Product from "@/lib/models/Product";
 import Collection from "@/lib/models/Collection";
+import Product from "@/lib/models/Product";
+import { connectToDB } from "@/lib/mongoDB";
 
 export const POST = async (req: NextRequest) => {
   try {

@@ -23,7 +23,7 @@ export default async function Home() {
       <div className='grid grid-cols-2 md:grid-cols-3 gap-10'>
         <Card>
           <CardHeader className='flex flex-row justify-between items-center'>
-            <CardTitle>Revenu total</CardTitle>
+            <CardTitle>Total Revenue</CardTitle>
             <CircleDollarSign className='max-sm:hidden' />
           </CardHeader>
           <CardContent>
@@ -43,7 +43,7 @@ export default async function Home() {
 
         <Card>
           <CardHeader className='flex flex-row justify-between items-center'>
-            <CardTitle>Nombre Total Clients</CardTitle>
+            <CardTitle>Total Client</CardTitle>
             <UserRound className='max-sm:hidden' />
           </CardHeader>
           <CardContent>
@@ -54,7 +54,7 @@ export default async function Home() {
 
       <Card className='mt-10'>
         <CardHeader>
-          <CardTitle>Graphique des ventes ($)</CardTitle>
+          <CardTitle>graphes des ventes ($)</CardTitle>
         </CardHeader>
         <CardContent>
           <SalesChart data={graphData} />
