@@ -6,7 +6,7 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KadjoShop - admin Auth",
+  title: "KadjoShopBoutique - admin Auth",
   description: "Admin dashboard To manage data",
 };
 
